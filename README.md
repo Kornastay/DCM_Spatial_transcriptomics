@@ -3,3 +3,4 @@
 Raw Xenium data were processed with Xenium Ranger. Cell segmentation was subsequently refined using the resegment pipeline with the segment-large-cells option to account for the large size of cardiomyocytes.
 
 #### 2. snRNA-seq
+snRNA-seq data was generated from the Xenium matched bottom heart halves. The raw data was processed with Cell Ranger.
