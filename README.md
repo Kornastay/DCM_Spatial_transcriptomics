@@ -5,7 +5,9 @@ Raw Xenium data were processed with Xenium Ranger. Cell segmentation was subsequ
 #### 2. snRNA-seq
 snRNA-seq data was generated from the Xenium matched bottom heart halves. The raw data was processed with Cell Ranger.
 
-#### Analysis was run with Python  3.11.14 and the following dependancies:
+#### Analysis for both Xenium and snRNA-seq data was run with Python 3.11.14 and the following dependencies:
+
+```
 anndata              0.12.6
 dask                 2024.11.2
 datashader           0.18.2
@@ -36,3 +38,4 @@ tifffile             2025.10.16
 umap-learn           0.5.9.post2
 xarray               2024.11.0
 zarr                 2.18.7
+```
